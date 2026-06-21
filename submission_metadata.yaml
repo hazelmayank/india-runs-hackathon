@@ -2,7 +2,7 @@
 # Fill required placeholders before portal submission.
 # Run eval/final_sanity_check.py before setting submission_ready to true.
 
-submission_ready: false  # Set true only after the Streamlit sandbox link is final.
+submission_ready: true  # Sandbox link is live and tested.
 
 team_name: "WildSqaud"  # REQUIRED
 
@@ -14,7 +14,7 @@ primary_contact:
 team_members: []  # Fill only if the submission portal requires a full member roster.
 
 github_repo: "https://github.com/hazelmayank/india-runs-hackathon" # REQUIRED
-sandbox_link: "TO_BE_UPDATED_AFTER_STREAMLIT_DEPLOYMENT" # TODO: Replace with real Streamlit Cloud URL before final submission.
+sandbox_link: "https://india-runs-hackathon-d4kd2fvfgaxeqbzen3hhyx.streamlit.app" # REQUIRED — live Streamlit demo
 
 reproduce_command: "python src/rank.py --candidates ./data/candidates.jsonl --out ./submission.csv --profile-runtime"
 fast_reproduce_command: "python src/rank.py --candidates ./data/candidates.jsonl --out ./submission_fast.csv --fast --profile-runtime"
